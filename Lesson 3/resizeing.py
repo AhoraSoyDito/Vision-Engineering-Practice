@@ -1,7 +1,7 @@
 import os
 import cv2
 
-img = cv2.imread(os.path.join('.','data','bird.jpeg'))
+img = cv2.imread(os.path.join('..','data','bird.jpeg'))
 
 print(img.shape) 
 #(708,1000,3)
